@@ -14,7 +14,7 @@
   <h3 align="center">Spotify - Web Player</h3>
 
   <p align="center">
-    🎧 以 Spotify 为UI层开发的在线音乐APP 🎧
+    🎵 Online music platform developed base on Spotify UI 🎵
     <br />
     <br />
     <a href="https://github.com/CreamR/Spotify-Web-Player/blob/master/README.md">简体中文</a>
@@ -25,31 +25,32 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open>
-  <summary>目录</summary>
+  <summary>Directory</summary>
   <ul>
-    <li><a href="#项目介绍">项目介绍</a> </li>
-    <li><a href="#技术栈">技术栈</a></li>
-    <li><a href="#环境要求">环境要求</a></li>
-    <li><a href="#安装与运行 - 服务器">安装与运行 - 服务器</a></li>
-    <li><a href="#安装与运行 - 前端">安装与运行 - 前端</a></li>
-    <li><a href="#解决跨域问题">解决跨域问题</a></li>
-    <li><a href="#UI设计参考">UI设计参考</a></li>
-    <li><a href="#贡献者">贡献者</a></li>
-    <li><a href="#开源协议">开源协议</a></li>
+    <li><a href="#Introduction of Project">Introduction of Project</a> </li>
+    <li><a href="#Build With">Build With</a></li>
+    <li><a href="#Environment Requirement">Environment Requirement</a></li>
+    <li><a href="#Installation and Usage - Server">Installation and Usage - Server</a></li>
+    <li><a href="#Installation and Usage - Frontend">Installation and Usage - Frontend</a></li>
+    <li><a href="#Resolve CORS Problem">Resolve CORS Problem</a></li>
+    <li><a href="#Contributor">Contributor</a></li>
+    <li><a href="#UI Design Reference">UI design Reference</a></li>
+    <li><a href="#LICENSE">LICENSE</a></li>
   </ul>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 
-## 项目介绍
+## Introduction of Project
 
 <!-- 项目图片部分 -->
 
-Spotify - Web Player 是一个在线音乐平台项目，基于 Vue3 组合式 API + Element Plus，后端使用网易云音乐的数据，相比于网易云音乐去掉了冗余的模块，仅保留基本功能, 目前还在开发中。
+Spotify - Web Player is a Online music platform developed base on Spotify UI, developed used by Vue3 with composition API usage and Element-Plus.
+BackEnd section depended on CloudMusic(Chinese Version)，Contrast by CloudMusic , Spotify - Web Player drop out the useless and complicated modules to improve performance.
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 技术栈
+## Build With
 
 - Vue3 with composition API
 - Vue-router
@@ -60,17 +61,17 @@ Spotify - Web Player 是一个在线音乐平台项目，基于 Vue3 组合式 A
 - ES6+
 - Fetch
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 环境要求
+## Environment Requirement
 
 - NodeJS 16+
-- Chrome67+ / Edge79+ / Safari12+
-- 适配电脑与平板页面
+- Chrome67+ / Edge79+ / Safari12+, or equivalent version of browser base on Webkit API
+- appropriate for PC or laptop
 
-## 安装与运行 - 服务器
+## Installation and Usage - Server
 
 ```sh
 $ # clone the project
@@ -79,7 +80,7 @@ $ cd NeteaseCloudMusicApi
 $ node app.js
 ```
 
-## 安装与运行 - 前端
+## Installation and Usage - Frontend
 
 ```sh
 $ # clone the project
@@ -90,43 +91,43 @@ $ pnpm install
 $ pnpm run dev
 ```
 
-## 解决跨域问题
+## Resolve CORS Problem
 
-##### 默认情况下, 由于未设置跨域允许，可能会造成无法使用或者白屏问题, 解决此问题可能有以下方法
+##### As a default, Because the CORS access has been not activate, Probably cannot use this project or there is no data has been be loaded, There is several methods to resolve that problem
 
-- 使用浏览器插件将跨域请求改为允许
-- 在前端发送网络请求时设置跨域允许
-- 后端在编写接口时改为跨域允许
-- 使用构建器
+- use browser extension
+- set CORS access when send request in front end section
+- set CORS access when code interface in back end section
+- use builder such as webpack/vite etc
 
-##### 我们以第一种方法为例
+##### We use the first method as an instance
 
-推荐 [Allow CORS](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) 插件, 下载安装后在使用此项目时启用它即可, 当然你也可以自行选择其他插件或者其他方法来解决跨域问题
+Recommend [Allow CORS](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf) extension, Activate it when the setup done, Of course you can chose another extension or method to resolve that problem
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## UI 设计参考
+## UI Design Reference
 
 [YouTube](https://www.youtube.com)
 [Spotify](https://www.spotify.com/)
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 贡献者
+## Contributor
 
-此项目由 Gmz@creamR 开发，后端接口支持为 - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+The project developed by Gmz@creamR，There is the backEnd section support - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 开源协议
+## LICENSE
 
 [Apache License 2.0](https://github.com/CreamR/Spotify-Web-Player/blob/master/LICENSE)
 
 CreamR/Spotify-Web-Player is licensed under the Apache License 2.0. A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [stars-shield]: https://img.shields.io/github/stars/creamR/Spotify-Web-Player?style=for-the-badge
 [stars-url]: https://github.com/CreamR/Spotify-Web-Player/stargazers

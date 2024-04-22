@@ -61,7 +61,7 @@ const router = createRouter({
 	],
 })
 
-router.beforeEach(to => {
+router.beforeEach((to) => {
 	if (to.meta.needLogin && !localStorage.getItem('cookie')) {
 		// 防抖
 		if (to.name != 'login') {

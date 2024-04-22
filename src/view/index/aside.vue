@@ -37,10 +37,7 @@
 			>
 				{{ item.name }}
 			</li>
-			<div
-				class="unlogined"
-				v-else
-			>
+			<div class="unlogined" v-else>
 				<h3>未登录</h3>
 				<circle></circle>
 				<el-button
@@ -56,96 +53,96 @@
 </template>
 
 <script setup>
-	import { Cpu, Star } from '@element-plus/icons-vue'
-	import { reactive, onMounted, watch } from 'vue'
-	import { getPlaylist } from '@/service/playlist'
+import { Cpu, Star } from '@element-plus/icons-vue'
+import { reactive, onMounted, watch } from 'vue'
+import { getPlaylist } from '@/service/playlist'
 
-	const data = reactive({
-		uID: localStorage.getItem('userID') ?? null,
-		playlist: [],
-		logined: localStorage.getItem('cookie') ? true : false,
-	})
+const data = reactive({
+	uID: localStorage.getItem('userID') ?? null,
+	playlist: [],
+	logined: localStorage.getItem('cookie') ? true : false,
+})
 
-	onMounted(() => {
-		init(data.uID)
-	})
-	const init = async uID => {
-		if (data.logined) {
-			const res = await getPlaylist(uID)
-			data.playlist = res.playlist
-			console.log(JSON.parse(JSON.stringify(data.playlist)))
-		}
+onMounted(() => {
+	init(data.uID)
+})
+const init = async (uID) => {
+	if (data.logined) {
+		const res = await getPlaylist(uID)
+		data.playlist = res.playlist
+		console.log(JSON.parse(JSON.stringify(data.playlist)))
 	}
+}
 
-	watch(
-		() => data.logined,
-		() => {
-			init(data.uID)
-		}
-	)
-	watch(localStorage.getItem('cookie'), newVal => {
-		data.logined = newVal
-	})
+watch(
+	() => data.logined,
+	() => {
+		init(data.uID)
+	}
+)
+watch(localStorage.getItem('cookie'), (newVal) => {
+	data.logined = newVal
+})
 </script>
 
 <style lang="less" scoped>
-	@import url(@/base.less);
-	.aside {
-		color: white;
-		font-weight: bold;
-		background-color: black;
-		.logo {
-			margin: 30px 65px 20px 30px;
+@import url(@/base.less);
+.aside {
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	.logo {
+		margin: 30px 65px 20px 30px;
+		cursor: pointer;
+	}
+	.fixContent,
+	.content {
+		padding: 3px;
+		li {
+			border-radius: 10px;
+
+			padding: 10px;
+			padding-left: 30px;
+			margin-bottom: 10px;
+
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+
 			cursor: pointer;
-		}
-		.fixContent,
-		.content {
-			padding: 3px;
-			li {
-				border-radius: 10px;
-
-				padding: 10px;
-				padding-left: 30px;
-				margin-bottom: 10px;
-
-				overflow: hidden;
-				text-overflow: ellipsis;
-				white-space: nowrap;
-
-				cursor: pointer;
-				#trs-bgc(#2c2c2c, #3c3c3c);
-				.el-icon {
-					vertical-align: middle;
-					margin-right: 10px;
-				}
-			}
-		}
-		circle {
-			display: block;
-			width: 80%;
-			border-bottom: 1px solid #444444;
-
-			margin: 0 auto;
-		}
-		.content {
-			margin-top: 10px;
-			.title {
-				color: #666666;
-
-				padding: 10px;
-				padding-left: 30px;
-			}
-			.unlogined {
-				text-align: center;
-				margin-top: 30%;
-				circle {
-					width: 150px;
-					border-bottom: 1px solid darkgrey;
-
-					padding-bottom: 15px;
-					margin-bottom: 15px;
-				}
+			#trs-bgc(#2c2c2c, #3c3c3c);
+			.el-icon {
+				vertical-align: middle;
+				margin-right: 10px;
 			}
 		}
 	}
+	circle {
+		display: block;
+		width: 80%;
+		border-bottom: 1px solid #444444;
+
+		margin: 0 auto;
+	}
+	.content {
+		margin-top: 10px;
+		.title {
+			color: #666666;
+
+			padding: 10px;
+			padding-left: 30px;
+		}
+		.unlogined {
+			text-align: center;
+			margin-top: 30%;
+			circle {
+				width: 150px;
+				border-bottom: 1px solid darkgrey;
+
+				padding-bottom: 15px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}
 </style>

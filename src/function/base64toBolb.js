@@ -17,7 +17,7 @@ const base64ImgtoFile = (dataurl, filename = 'file') => {
 	})
 }
 
-export const getUrl = base64 => {
+export const getUrl = (base64) => {
 	const blob = base64ImgtoFile(base64)
 	const blobUrl = window.URL.createObjectURL(blob)
 

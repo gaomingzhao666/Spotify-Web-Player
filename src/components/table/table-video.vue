@@ -3,17 +3,17 @@
 </template>
 
 <script setup>
-	import { onMounted } from 'vue'
+import { onMounted } from 'vue'
 
-	const props = defineProps({
-		dataList: [],
-	})
+const props = defineProps({
+	dataList: [],
+})
 
-	onMounted(() => {
-		setTimeout(() => {
-			console.log(props.dataList)
-		}, 1000)
-	})
+onMounted(() => {
+	setTimeout(() => {
+		console.log(props.dataList)
+	}, 1000)
+})
 </script>
 
 <style lang="less" scoped></style>

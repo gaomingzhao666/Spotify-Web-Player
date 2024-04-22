@@ -14,7 +14,7 @@ export const getCode = (phone: number | string, timeStamp: string | number) =>
 		headers: {
 			'Content-Type': 'application/json',
 		},
-	}).then(data => data.json())
+	}).then((data) => data.json())
 
 // 验证码登录
 export const login = (
@@ -32,7 +32,7 @@ export const login = (
 		headers: {
 			'Content-Type': 'application/json',
 		},
-	}).then(data => data.json())
+	}).then((data) => data.json())
 
 // 二维码登录 - 获取生成key
 export const getKey = (timeStamp: string | number) =>
@@ -45,7 +45,7 @@ export const getKey = (timeStamp: string | number) =>
 		headers: {
 			'Content-Type': 'application/json',
 		},
-	}).then(data => data.json())
+	}).then((data) => data.json())
 
 // 二维码登录 - 二维码生成
 export const getQRcode = (key: string | number, timeStamp: string | number) =>
@@ -60,7 +60,7 @@ export const getQRcode = (key: string | number, timeStamp: string | number) =>
 		headers: {
 			'Content-Type': 'application/json',
 		},
-	}).then(data => data.json())
+	}).then((data) => data.json())
 
 //二维码登录 - 检测轮询
 export const check = (key: string | number, timeStamp: string | number) =>
@@ -74,7 +74,7 @@ export const check = (key: string | number, timeStamp: string | number) =>
 		headers: {
 			'Content-Type': 'application/json',
 		},
-	}).then(data => data.json())
+	}).then((data) => data.json())
 
 // 登出
 export const logout = () =>
@@ -86,4 +86,4 @@ export const logout = () =>
 		headers: {
 			'Content-Type': 'application/json',
 		},
-	}).then(data => data.json())
+	}).then((data) => data.json())

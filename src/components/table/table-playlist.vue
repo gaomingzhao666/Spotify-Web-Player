@@ -22,28 +22,30 @@
 					})
 				"
 			>
-				<vPlaylistCard :data="{ picUrl: item.picUrl, title: item.name }"></vPlaylistCard>
+				<vPlaylistCard
+					:data="{ picUrl: item.picUrl, title: item.name }"
+				></vPlaylistCard>
 			</el-col>
 		</el-row>
 	</div>
 </template>
 
 <script setup>
-	import { onMounted } from 'vue'
-	import vPlaylistCard from '@/components/playlist-card.vue'
-	const props = defineProps({
-		dataList: [],
-	})
+import { onMounted } from 'vue'
+import vPlaylistCard from '@/components/playlist-card.vue'
+const props = defineProps({
+	dataList: [],
+})
 
-	// onMounted(() => {
-	// 	setTimeout(() => {
-	// 		init()
-	// 	}, 2000)
-	// })
-	// const init = () => {
-	// 	props.dataList = props.dataList.map(dataList => ({
-	// 		...dataList,
-	// 		picUrl: dataList.coverImgUrl,
-	// 	}))
-	// }
+// onMounted(() => {
+// 	setTimeout(() => {
+// 		init()
+// 	}, 2000)
+// })
+// const init = () => {
+// 	props.dataList = props.dataList.map(dataList => ({
+// 		...dataList,
+// 		picUrl: dataList.coverImgUrl,
+// 	}))
+// }
 </script>

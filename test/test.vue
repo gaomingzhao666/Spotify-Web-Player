@@ -6,25 +6,25 @@
 </template>
 
 <script setup>
-	import 'media-chrome'
+import 'media-chrome'
 
-	import { timeSwtich } from '@/function/timeSwtich'
-	import { collectedArtist } from '@/service/collect'
-	console.log(timeSwtich('524531354568'))
+import { timeSwtich } from '@/function/timeSwtich'
+import { collectedArtist } from '@/service/collect'
+console.log(timeSwtich('524531354568'))
 
-	const getIN = async () => {
-		const res = await collectedArtist()
-		console.log(res)
-	}
+const getIN = async () => {
+	const res = await collectedArtist()
+	console.log(res)
+}
 </script>
 
 <style lang="less" scoped>
-	.audioPlayer {
-		border-radius: 30% !important;
-		width: 80vw;
-	}
-	.player {
-		margin-top: 3vw;
-		margin-left: 10vw;
-	}
+.audioPlayer {
+	border-radius: 30% !important;
+	width: 80vw;
+}
+.player {
+	margin-top: 3vw;
+	margin-left: 10vw;
+}
 </style>

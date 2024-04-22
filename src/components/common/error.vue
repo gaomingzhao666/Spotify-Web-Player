@@ -6,9 +6,7 @@
 		style="text-align: center; margin-top: 200px"
 	>
 		<template #extra>
-			<el-button
-				type="success"
-				@click="$router.push({ name: 'main' })"
+			<el-button type="success" @click="$router.push({ name: 'main' })"
 				>返回主页</el-button
 			>
 		</template>

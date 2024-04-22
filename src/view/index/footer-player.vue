@@ -45,20 +45,14 @@
 
 		<div class="right">
 			<el-icon color="white" size="30"><Expand /></el-icon>
-			<el-icon
-				color="white"
-				size="30"
-				@click="volume = 0"
-				v-if="volume != 0"
+			<el-icon color="white" size="30" @click="volume = 0" v-if="volume != 0"
 				><Microphone
 			/></el-icon>
 			<el-icon color="white" size="30" @click="volume = 30" v-else
 				><Mute
 			/></el-icon>
 
-			<media-volume-range
-				mediacontroller="myController"
-			></media-volume-range>
+			<media-volume-range mediacontroller="myController"></media-volume-range>
 		</div>
 	</div>
 </template>

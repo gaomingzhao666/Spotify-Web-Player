@@ -15,24 +15,24 @@
 </template>
 
 <script setup>
-	const props = defineProps({
-		dataList: [],
-	})
+const props = defineProps({
+	dataList: [],
+})
 </script>
 
 <style lang="less" scoped>
-	.table {
-		.el-row {
-			.el-col {
-				margin-top: 30px;
+.table {
+	.el-row {
+		.el-col {
+			margin-top: 30px;
 
-				img {
-					width: 100%;
-					height: 100%;
-					cursor: pointer;
-					border-radius: 50%;
-				}
+			img {
+				width: 100%;
+				height: 100%;
+				cursor: pointer;
+				border-radius: 50%;
 			}
 		}
 	}
+}
 </style>

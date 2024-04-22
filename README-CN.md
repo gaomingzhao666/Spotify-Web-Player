@@ -7,19 +7,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/CreamR/Spotify-Web-Player">
+  <a href="https://github.com/gaomingzhao666/Spotify-Web-Player">
     <img src="/public/logo.svg" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Spotify - Web Player</h3>
+  <h3 align="center">Spotify Web Player</h3>
 
   <p align="center">
     🎧 以 Spotify 为UI层开发的在线音乐APP 🎧
     <br />
     <br />
-    <a href="https://github.com/CreamR/Spotify-Web-Player/blob/master/README.md">简体中文</a>
-     <strong> · </strong>
-    <a href="https://github.com/CreamR/Spotify-Web-Player/blob/master/README-EN.md">English</a>
+    <a href="https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/README-EN.md">English</a>
+      <strong> · </strong>
+    <a href="https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/README.md">简体中文</a>
   </p>
 </div>
 
@@ -68,9 +68,9 @@ Spotify - Web Player 是一个在线音乐平台项目，基于 Vue3 组合式 A
 
 - NodeJS 16+
 - Chrome67+ / Edge79+ / Safari12+
-- 适配电脑与平板页面
+- 对电脑与平板页面尺寸作响应式适配
 
-## 安装与运行 - 服务器
+## 安装与运行 - 服务端
 
 ```sh
 $ # clone the project
@@ -79,11 +79,11 @@ $ cd NeteaseCloudMusicApi
 $ node app.js
 ```
 
-## 安装与运行 - 前端
+## 安装与运行 - 客户端
 
 ```sh
 $ # clone the project
-$ git clone https://github.com/CreamR/Spotify-Web-Player.git
+$ git clone https://github.com/gaomingzhao666/Spotify-Web-Player.git
 $ # install dependencies and run it
 $ # recommend pnpm as a package manager that more faster than npm and the grammar is similar with npm
 $ pnpm install
@@ -114,7 +114,7 @@ $ pnpm run dev
 
 ## 贡献者
 
-此项目由 Gmz@creamR 开发，后端接口支持为 - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+此项目由 gaomingzhao666@Nano 开发，后端接口支持(因版权原因现已停止维护)为 - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
@@ -122,15 +122,15 @@ $ pnpm run dev
 
 ## 开源协议
 
-[Apache License 2.0](https://github.com/CreamR/Spotify-Web-Player/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/LICENSE)
 
-CreamR/Spotify-Web-Player is licensed under the Apache License 2.0. A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+gaomingzhao666/Spotify-Web-Player is licensed under the Apache License 2.0. A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
-[stars-shield]: https://img.shields.io/github/stars/creamR/Spotify-Web-Player?style=for-the-badge
-[stars-url]: https://github.com/CreamR/Spotify-Web-Player/stargazers
+[stars-shield]: https://img.shields.io/github/stars/gaomingzhao666/Spotify-Web-Player?style=for-the-badge
+[stars-url]: https://github.com/gaomingzhao666/Spotify-Web-Player/stargazers
 [license-shield]: https://img.shields.io/hexpm/l/apa?style=for-the-badge
-[license-url]: https://github.com/CreamR/Spotify-Web-Player/blob/master/LICENSE
-[release-shield]: https://img.shields.io/github/v/release/creamR/spotify-web-player?style=for-the-badge
-[release-url]: https://github.com/CreamR/Spotify-Web-Player/releases/tag
+[license-url]: https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/LICENSE
+[release-shield]: https://img.shields.io/github/v/release/gaomingzhao666/spotify-web-player?style=for-the-badge
+[release-url]: https://github.com/gaomingzhao666/Spotify-Web-Player/releases/tag

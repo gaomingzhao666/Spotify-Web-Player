@@ -47,6 +47,8 @@
     <img src="/screenshot/tablet/index.png">
 </p>
 
+> 上述界面为平板尺寸的应用首页，了解更多请深入 [SCREENSHOT](https://github.com/gaomingzhao666/Spotify-Web-Player/tree/main/SCREENSHOT) 文件夹
+
 Spotify - Web Player 是一个在线音乐平台项目，基于 Vue3 组合式 API + Element Plus，后端使用网易云音乐的数据，相比于网易云音乐去掉了冗余的模块，仅保留基本功能, 目前还在开发中。
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
@@ -116,7 +118,7 @@ $ pnpm run dev
 
 ## 贡献者
 
-此项目由 gaomingzhao666@Nano 开发，后端接口支持(因版权原因现已停止维护)为 - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+此项目由 [gaomingzhao666@Nano](https://github.com/gaomingzhao666) 开发，后端接口支持(因版权原因现已停止维护)为 - [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 <p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 

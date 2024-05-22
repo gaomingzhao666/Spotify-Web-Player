@@ -47,6 +47,8 @@
     <img src="/screenshot/tablet/index.png">
 </p>
 
+> The image shown here is a index-page for tablet-size, [click here](https://github.com/gaomingzhao666/Spotify-Web-Player/tree/main/SCREENSHOT) to see more detailed screenshot for this application.
+
 A web music player UI/UX clone from Spotify Web Player AND data-source provided by NetEaseCloud Music
 
 <p align="right"> (<a href="#readme-top">back to top</a>)</p>
@@ -116,7 +118,7 @@ Recommend [Allow CORS](https://chrome.google.com/webstore/detail/allow-cors-acce
 
 ## Contributor
 
-The project developed by gaomingzhao666@Nano， there is the data-source support (unmaintained now)- [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+The project developed by [gaomingzhao666@Nano](https://github.com/gaomingzhao666)， there is the data-source support (unmaintained now)- [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

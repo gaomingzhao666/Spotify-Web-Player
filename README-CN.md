@@ -44,10 +44,10 @@
 ## 项目介绍
 
 <p align="center">
-    <img src="/screenshot/tablet/index.png">
+    <img src="/SCREENSHOT/index-mockup.png">
 </p>
 
-> 上述界面为平板尺寸的应用首页，了解更多请深入 [SCREENSHOT](https://github.com/gaomingzhao666/Spotify-Web-Player/tree/main/SCREENSHOT) 文件夹
+> 上述界面为平板尺寸的应用首页，了解更多请深入 [点击此处](https://github.com/gaomingzhao666/Spotify-Web-Player/tree/main/SCREENSHOT)
 
 Spotify - Web Player 是一个在线音乐平台项目，基于 Vue3 组合式 API + Element Plus，后端使用网易云音乐的数据，相比于网易云音乐去掉了冗余的模块，仅保留基本功能, 目前还在开发中。
 

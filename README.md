@@ -44,7 +44,7 @@
 ## Introduction of Project
 
 <p align="center">
-    <img src="/screenshot/tablet/index.png">
+    <img src="/SCREENSHOT/index-mockup.png">
 </p>
 
 > The image shown here is a index-page for tablet-size, [click here](https://github.com/gaomingzhao666/Spotify-Web-Player/tree/main/SCREENSHOT) to see more detailed screenshot for this application.

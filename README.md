@@ -43,7 +43,9 @@
 
 ## Introduction of Project
 
-<!-- 项目图片部分 -->
+<p align="center">
+    <img src="/screenshot/tablet/index.png">
+</p>
 
 A web music player UI/UX clone from Spotify Web Player AND data-source provided by NetEaseCloud Music
 

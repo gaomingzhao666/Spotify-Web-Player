@@ -43,7 +43,9 @@
 
 ## 项目介绍
 
-<!-- 项目图片部分 -->
+<p align="center">
+    <img src="/screenshot/tablet/index.png">
+</p>
 
 Spotify - Web Player 是一个在线音乐平台项目，基于 Vue3 组合式 API + Element Plus，后端使用网易云音乐的数据，相比于网易云音乐去掉了冗余的模块，仅保留基本功能, 目前还在开发中。
 

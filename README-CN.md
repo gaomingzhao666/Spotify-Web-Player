@@ -2,7 +2,8 @@
 
 [![Stargazers][stars-shield]][stars-url]
 [![Apache2.0 License][license-shield]][license-url]
-[![Release][release-shield]][release-url]
+
+🚫 由于 [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) 已删库，无法继续根据接口文档开发功能，此项目不再维护
 
 <!-- PROJECT LOGO -->
 <br />
@@ -30,10 +31,10 @@
     <li><a href="#项目介绍">项目介绍</a> </li>
     <li><a href="#技术栈">技术栈</a></li>
     <li><a href="#环境要求">环境要求</a></li>
-    <li><a href="#安装与运行 - 服务器">安装与运行 - 服务器</a></li>
-    <li><a href="#安装与运行 - 前端">安装与运行 - 前端</a></li>
+    <li><a href="#安装与运行---服务端">安装与运行 - 服务器</a></li>
+    <li><a href="#安装与运行---客户端">安装与运行 - 前端</a></li>
     <li><a href="#解决跨域问题">解决跨域问题</a></li>
-    <li><a href="#UI设计参考">UI设计参考</a></li>
+    <li><a href="#ui-设计参考">UI设计参考</a></li>
     <li><a href="#贡献者">贡献者</a></li>
     <li><a href="#开源协议">开源协议</a></li>
   </ul>

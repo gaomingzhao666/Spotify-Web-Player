@@ -2,7 +2,8 @@
 
 [![Stargazers][stars-shield]][stars-url]
 [![Apache2.0 License][license-shield]][license-url]
-[![Release][release-shield]][release-url]
+
+This project, which relies on the server-side APIs provided by [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi), is no longer under development. This is because the server-side support APIs has been officially deleted, making it impossible to add new features or improve existing functionalities that depend on these APIs. As a result, Spotify-Web-Player is no longer maintained.
 
 <!-- PROJECT LOGO -->
 <br />
@@ -27,15 +28,15 @@
 <details open>
   <summary>Directory</summary>
   <ul>
-    <li><a href="#Introduction of Project">Introduction of Project</a> </li>
-    <li><a href="#Build With">Build With</a></li>
-    <li><a href="#Environment Requirement">Environment Requirement</a></li>
-    <li><a href="#Installation and Usage - Server">Installation and Usage - Server</a></li>
-    <li><a href="#Installation and Usage - Frontend">Installation and Usage - Frontend</a></li>
-    <li><a href="#Resolve CORS Problem">Resolve CORS Problem</a></li>
-    <li><a href="#Contributor">Contributor</a></li>
-    <li><a href="#UI Design Reference">UI design Reference</a></li>
-    <li><a href="#LICENSE">LICENSE</a></li>
+    <li><a href="#introduction-of-project">Introduction of Project</a> </li>
+    <li><a href="#build-with">Build With</a></li>
+    <li><a href="#environment-requirement">Environment Requirement</a></li>
+    <li><a href="#installation-and-usage---server">Installation and Usage - Server</a></li>
+    <li><a href="#installation-and-usage---frontend">Installation and Usage - Frontend</a></li>
+    <li><a href="#resolve-cors-problem">Resolve CORS Problem</a></li>
+    <li><a href="#contributor">Contributor</a></li>
+    <li><a href="#ui-design-reference">UI design Reference</a></li>
+    <li><a href="#license">LICENSE</a></li>
   </ul>
 </details>
 

@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Apache2.0 License][license-shield]][license-url]
 
-This project, which relies on the server-side APIs provided by [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi), is no longer under development. This is because the server-side support APIs has been officially deleted, making it impossible to add new features or improve existing functionalities that depend on these APIs. As a result, Spotify-Web-Player is no longer maintained.
+🚫 This project, which relies on the server-side APIs provided by [NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi), is no longer under development. This is because the server-side support APIs has been officially deleted, making it impossible to add new features or improve existing functionalities that depend on these APIs. As a result, Spotify-Web-Player is no longer maintained.
 
 <!-- PROJECT LOGO -->
 <br />

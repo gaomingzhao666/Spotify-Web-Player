@@ -18,9 +18,9 @@
     🎧 以 Spotify 为UI层开发的在线音乐APP 🎧
     <br />
     <br />
-    <a href="https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/README-EN.md">English</a>
+    <a href="https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/README.md">English</a>
       <strong> · </strong>
-    <a href="https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/README.md">简体中文</a>
+    <a href="https://github.com/gaomingzhao666/Spotify-Web-Player/blob/master/README-CN.md">简体中文</a>
   </p>
 </div>
 
